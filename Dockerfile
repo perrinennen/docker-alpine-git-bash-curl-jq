@@ -7,5 +7,3 @@ COPY install.sh install.sh
 
 RUN apk update && apk upgrade && \
     apk add --no-cache bash git openssh jq curl curl-dev
-
-ENTRYPOINT ["/bin/bash"]
