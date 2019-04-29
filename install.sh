@@ -2,7 +2,7 @@
 
 set -ex
 
-apk add --update --no-cache bash wget openssh libc6-compat jq curl
+apk add --update --no-cache bash wget openssh libc6-compat jq curl curl-dev
 
 wget -O hub.tgz  --progress=dot:mega https://github.com/github/hub/releases/download/v2.3.0-pre10/hub-linux-amd64-2.3.0-pre10.tgz
 mkdir /hub
