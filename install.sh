@@ -10,7 +10,7 @@ tar -xvf hub.tgz -C /hub --strip-components 1
 alias git=hub
 bash /hub/install
 hub --version
-# Clenup
+# Cleanup
 rm -v hub.tgz
 rm -frv /hub
 apk del wget

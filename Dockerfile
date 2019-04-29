@@ -8,4 +8,4 @@ RUN chmod +x install.sh && ./install.sh
 VOLUME /git
 WORKDIR /git
 
-ENTRYPOINT [ "hub" ]
+# ENTRYPOINT [ "hub" ]
